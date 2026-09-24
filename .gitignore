@@ -1,0 +1,22 @@
+# Bibliothèque de pièces LDraw : à télécharger, cf. README
+lib/
+
+# Rendus : régénérables, et trop lourds pour git
+videos/
+previews/
+*.mp4
+*.log
+seg_*.mp4
+seg_*.log
+
+# Portage C++ : binaires et dumps de triangles, régénérables par `make -C cpp`
+cpp/build/
+cpp/ref/*.bin
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store

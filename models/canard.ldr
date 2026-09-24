@@ -1,0 +1,29 @@
+0 Petit canard 6 briques
+0 Name: canard.ldr
+0 Author: Claude
+0 !LDRAW_ORG Unofficial_Model
+0 !LICENSE Redistributable under CCAL version 2.0
+
+0 // Etape 1 - corps
+1 14 40 0 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 STEP
+
+0 // Etape 2 - cou
+1 14 60 -24 20 1 0 0 0 1 0 0 0 1 3003.dat
+0 STEP
+
+0 // Etape 3 - queue
+1 14 10 -24 20 0 0 1 0 1 0 -1 0 0 3004.dat
+0 STEP
+
+0 // Etape 4 - tete
+1 14 60 -48 20 1 0 0 0 1 0 0 0 1 3003.dat
+0 STEP
+
+0 // Etape 5 - bec
+1 25 90 -48 20 0 0 1 0 1 0 -1 0 0 3004.dat
+0 STEP
+
+0 // Etape 6 - oeil
+1 0 50 -72 10 1 0 0 0 1 0 0 0 1 3024.dat
+0 STEP
